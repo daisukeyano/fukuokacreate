@@ -21,7 +21,7 @@ gtag('config', 'UA-109048502-6');
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sawarabi+Gothic" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>?=ver00104" type="text/css" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/icon.png">
-<?php if(is_single()): ?>
+<?php if(is_single() || is_page()): ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/article.css" type="text/css" />
 <?php endif; ?>
 <?php wp_head();?>
