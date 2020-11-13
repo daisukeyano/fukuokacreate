@@ -19,7 +19,7 @@ gtag('config', 'UA-109048502-6');
 あなただけのECサイト構築をお手伝いします。" />
 
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sawarabi+Gothic" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>?=ver00104" type="text/css" />
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>?=ver00112" type="text/css" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/icon.png">
 <?php if(is_single() || is_page()): ?>
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/article.css" type="text/css" />
@@ -51,14 +51,20 @@ gtag('config', 'UA-109048502-6');
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!------------- HEADER ------------>
+<?php if ( is_home() || is_front_page() ) : ?>
 <header class="header">
+<?php else: ?>
+<header class="header header2">
+<?php endif; ?>
 <div class="header__wrap">
   <h1 class="header__logo"><img src="<?php bloginfo('template_directory'); ?>/img/icon.png" alt="FWC 福岡ウェブサービス制作所" class="header__logo--img"><a href="/">福岡ウェブサービス制作所</a></h1>
+  <?php if ( is_home() || is_front_page() ) : ?>
   <nav class="header__nav">
     <ul class="header__nav--list">
-      <li class="header__nav--item"><a class="header__nav--btn" href="#form__page">お問い合わせはこちら</a></li>
+      <li class="header__nav--item"><a class="header__nav--btn" href="#form__page">お問い合せ</a></li>
     </ul>
   </nav><!-- /.header__nav -->
+  <?php endif; ?>
 </div><!-- /.header__wrap -->
 </header>
 <!------------- HEADER ------------>

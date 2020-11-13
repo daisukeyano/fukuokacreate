@@ -98,6 +98,9 @@ ul {
   display: flex;
   justify-content: start;
 }
+.header.header2 {
+  position: relative;
+}
 @media (min-width: 768px) {
   .header {
     justify-content: center;
@@ -145,7 +148,7 @@ ul {
   padding: 9px 8px;
   background: #38A524;
   color: #fff;
-  font-size: 0.4rem;
+  font-size: 0.8rem;
   border-radius: 10px;
   -webkit-border-radius: 10px;
 }
@@ -403,8 +406,26 @@ ul {
 }
 .sample__area .mv__area--btn {
   display: block;
-  margin: auto;
+  width: 80%;
+  margin: 5% auto;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .sample__ttl {
+    font-size:  2.5rem;
+  }
+}
+
+.production__imgarea {
+  width: 80%;
+  margin: auto;
+}
+.production__imgbox {
+  margin: 0 0 6%;
+}
+.production__imgarea--ttl {
+  font-size: 1.4rem;
+  padding: 0 0 1.6%;
 }
 @media (min-width: 768px) {
   .sample__ttl {

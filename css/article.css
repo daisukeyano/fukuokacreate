@@ -20,6 +20,7 @@
 }
 .article__wrapper p {
 	padding: 0 0 2%;
+	line-height: 1.8;
 }
 @media (min-width: 768px) {
 	.article__wrapper p {
@@ -29,22 +30,22 @@
 .article__wrapper h2 {
     font-size: 1.25rem;
     border-bottom: 2px solid #38A524;
-    border-left: 2px solid #38A524;
-    padding: 0 0 .5% 2%;
-    margin: 0 0 1.5%;
+    border-left: 6px solid #38A524;
+    padding: 0 0 1.5% 2%;
+    margin: 10% 0 4.5%;
 }
 @media (min-width: 768px) {
 	.article__wrapper h2 {
     font-size: 2rem;
     border-bottom: 2px solid #38A524;
-    border-left: 4px solid #38A524;
+    border-left: 10px solid #38A524;
     padding: 0 0 .5% 1%;
 	}
 }
 .article__wrapper h3 {
 	padding: 4% 0 1%;
 	margin: 0 0 2%;
-	border-bottom: 1px solid #222222;
+	border-bottom: 2px solid #38A524;
 }
 .article__wrapper #toc_container {
 	width: 100%;
