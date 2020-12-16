@@ -17,8 +17,8 @@ gtag('config', 'UA-109048502-6');
 <title>ネットショップを始めたい方へ | <?php bloginfo('name');?></title>
 <meta name="description" content="福岡県内でネットショップを開きたい...！とお悩みの方へ。Shopifyを使って
 あなただけのECサイト構築をお手伝いします。" />
-
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sawarabi+Gothic" rel="stylesheet">
+<!-- 
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sawarabi+Gothic" rel="stylesheet"> -->
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>?=ver00112" type="text/css" />
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/icon.png">
 <?php if(is_single() || is_page()): ?>
@@ -61,7 +61,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <?php if ( is_home() || is_front_page() ) : ?>
   <nav class="header__nav">
     <ul class="header__nav--list">
-      <li class="header__nav--item"><a class="header__nav--btn" href="#form__page">お問い合せ</a></li>
+      <li class="header__nav--item"><a class="header__nav--btn" href="#form__page">お問い合わせ</a></li>
     </ul>
   </nav><!-- /.header__nav -->
   <?php endif; ?>

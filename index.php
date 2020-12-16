@@ -150,7 +150,7 @@
   <section id="sample" class="sample__area flow__area content bg">
     <h2 class="content__ttl sample__ttl flow__ttl"><span class="jpn">Shopify サンプルサイト</span></h2>
     <div class="content__inner product__inner">
-      <p class="sample__category--name">こちらからShopifyで作成したサンプルサイトをご覧いただけます。<br>右上の「パスワードを入力してください」から入ってください。<br><br>パスワード：peelta<br><span>※カートに商品を入れることはできますが、商品購入はできません</span></p>
+      <p class="sample__category--name sample__category--name-cosme">こちらからShopifyで作成したサンプルサイトをご覧いただけます。<br>右上の「パスワードを入力してください」から入ってください。<br><br>パスワード：peelta<br><span>※カートに商品を入れることはできますが、商品購入はできません</span></p>
     </div>
     <a class="mv__area--btn" href="https://ec-test2.myshopify.com/" target="_blank">サンプルサイト「Fuk cosme」</a>
   </section>
@@ -217,25 +217,20 @@
   </section>
   <!------- QA END ------->
 
-  
+
 
   <!------- 制作者について START ------->
   <section id="info" class="info__area content">
     <h2 class="content__ttl qa__ttl"><span class="jpn">制作者について</span></h2>
-    <div class="content__inner product__inner">
+    <div class="content__inner product__inner info__inner">
       <p class="product__category--txt">福岡ウェブサービス制作所の矢野です。<br>ネットショップを作りたいけど、なかなか作る方法もわからないし、業者は多いし、料金は高いしとお悩みの方にお伝えしたいことがあります。<br>ネットショップは今や簡単にどなたでも制作ができる「Shopify（ショッピファイ）」があります。こちら手馴れた方なら数日あれば作成できるほど簡単にネットショップを作ることできます。<br>「作る時間」や「詳しくないから」とお悩みの方、そのお悩みを福岡ウェブサービス制作所へご相談ください。お客様のご希望を詳細にヒアリングして短期で制作いたします。</p>
       <img class="product__category--img" src="<?php bloginfo('template_directory'); ?>/img/img02.jpg" alt="制作者・矢野">
     </div>
   </section>
   <!------- 制作者について START ------->
 
-  <div id="form__page">
-    <script src="https://sdk.form.run/js/v2/embed.js"></script>
-    <div
-      class="formrun-embed"
-      data-formrun-form="@f-arrows--1594439678"
-      data-formrun-redirect="true">
-    </div>
+  <div id="form__page" style="text-align: center;">
+    <a class="mv__area--btn" href="https://sdk.form.run/js/v2/embed.js" target="_blank">お問い合わせはこちら</a>
   </div>
 
 <ul class="blog__area">

@@ -15,12 +15,16 @@
 .article__wrapper a {
 	color: #3366FF;
 }
-.article__wrapper ol {
+.article__wrapper ol,ul {
 	margin: 2% 2% 4% 6%;
+}
+.article__wrapper li{
+	list-style-type: circle;
 }
 .article__wrapper p {
 	padding: 0 0 2%;
 	line-height: 1.8;
+	font-size: 15px;
 }
 @media (min-width: 768px) {
 	.article__wrapper p {
@@ -51,7 +55,7 @@
 	width: 100%;
     padding: 4%;
     margin: 0 0 4%;
-    border: 1px solid #CCCCCC;	
+    border: 1px solid #CCCCCC;
     font-size: 1rem;
 	line-height: 1.6;
 }

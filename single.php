@@ -3,7 +3,7 @@
 <article <?php post_class( 'article__content' ); ?>>
 <div class="article__wrapper">
   <div class="article__info">
-    
+
     <span class="article__date">
       <i class="far fa-clock"></i>
       <time
@@ -27,9 +27,9 @@
   <!--本文取得-->
   <?php the_content(); ?>
   <!--タグ-->
-  <div class="article__tag">
+  <!-- <div class="article__tag">
     <?php the_tags('<ul><li>タグ： </li><li>','</li><li>','</li></ul>'
-  ); ?>
+  ); ?> -->
   </div>
 </div>
 </article>
