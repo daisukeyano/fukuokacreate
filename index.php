@@ -127,23 +127,6 @@
   <!------- 制作の流れ END ------->
 
   <!------- 実績 START ------->
-  <section id="production" class="sample__area flow__area content bg">
-    <h2 class="content__ttl sample__ttl flow__ttl"><span class="jpn">Shopify制作事例　DYNAMAITE CREW JAPAN SHOP</span></h2>
-    <div class="content__inner product__inner">
-      <p class="sample__category--name">ハーレーのクラブスタイルを商品を取り扱っているダイナマイトクルージャパンの正規取扱店としてShopifyで制作致しました。大きく写真を使うことで迫力のあるメインビジュアルと、商品数が増えても重くならないShopifyの強さを感じることができます。ぜひご覧ください。</p>
-    </div>
-    <div class="production__imgarea">
-      <div class="production__imgbox">
-        <h3 class="production__imgarea--ttl">PC　イメージ</h3>
-        <img class="product__category--img" src="<?php bloginfo('template_directory'); ?>/img/dcj_pc.png" alt="DYNAMAITE CREW JAPAN SHOP PCイメージ">
-      </div>
-      <div class="production__imgbox">
-        <h3 class="production__imgarea--ttl">SP　イメージ</h3>
-        <img class="product__category--img" src="<?php bloginfo('template_directory'); ?>/img/dcj_sp.png" alt="DYNAMAITE CREW JAPAN SHOP SPイメージ">
-      </div>
-    </div>
-    <a class="mv__area--btn" href="https://shop.dynamite-crew-japan.com/" target="_blank">DYNAMAITE CREW JAPAN SHOP</a>
-  </section>
   <!------- 実績 END ------->
 
   <!------- サンプルサイト START ------->
